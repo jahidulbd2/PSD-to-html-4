@@ -60,6 +60,12 @@ header nav ul li a{
    border-radius: 2px;
    color: aliceblue;
 }
+.btn a:hover {
+    color: #111B47;
+    background-color: aliceblue;
+    border: 1px solid #111B47;
+    transition: .75s;
+}
 .hero{
     display: grid;
     grid-template-columns: 1fr 1fr;
