@@ -87,8 +87,8 @@ header nav ul li a{
 .hero{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 400px;
+    padding-bottom: 400px;
 }
 .hero-content h1{
 font-size: 50px;
@@ -243,6 +243,8 @@ line-height: 26px;
     text-align: center;
 }
 /* End six-content */
+
+/* Start footer  */
 footer{
     background-image: url(./img/Rectangle\ \(2\).png);
     
@@ -297,4 +299,209 @@ footer{
     padding: 0 20px;
     font-size: 20px;
 }
+/* End footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start responsive  */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* .hero{
+        padding-top: 100px;
+        padding-bottom: 250px;
+    }
+    .hero-content h1{
+    font-size: 37px;
+    } */
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1685px) {
+    .hero{
+        padding-top: 200px;
+        padding-bottom: 500px;
+    }
+    .hero-content h1{
+    font-size: 37px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+   
+    
+    header{
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+        justify-content: space-between;
+        }
+        header nav ul{
+            padding-left: 0;
+        }
+    .btn{
+      
+        padding-left: 25px;
+        }
+    .btn a{
+        text-decoration: none;
+        font-weight: 500;
+        background-color: #111B47;padding: 7px 15px;
+        border-radius: 2px;
+        color: aliceblue;
+     }
+
+    .logo{
+        display: none;
+    }
+
+
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .hero-content h1{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    }
+    .hero-content p{
+    font-size: 10px;
+    padding-top: 20px;
+    
+    }
+    .btn2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 50px;
+    
+        
+    }
+    .btn2 a{
+        font-size: 10px;
+      
+    }
+
+    }
+    
+    .btn1{
+        text-align: left;
+        
+    }
+    .btn3 {
+        text-align: left;
+    }
+    .btn3 a{
+        text-align: left;
+        background: transparent;
+        border: 1px solid #111B47;
+        border-radius: 2px;
+        color: #111B47;
+        
+    
+  }
+  /* Start second section */
+.second-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+}
+.second-content-article h1{
+    font-size: 27px;
+    font-weight: 500;
+    color: #091133;
+}
+.second-content-article p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #6F7CB2;
+}
+.second-content-icon{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 80px;
+}
+.fast-icon h3{
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.fast-icon p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #5D6970;
+
+}
+/* End second section */
+
+
+
+/* End responsive  */
 
