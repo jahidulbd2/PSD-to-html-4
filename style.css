@@ -8,6 +8,10 @@
     padding: 0;
    
 }
+
+
+
+/* Start fast Section */
 .bg{
     background-image: url(./img/designer_1.png);
     background-repeat: no-repeat;
@@ -20,10 +24,16 @@
     margin: auto;
 }
 .min-hearder{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr ; */
+  
     padding: 20px 0;
 }
+
+
+
+
+
+
+/* Start header */
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -66,6 +76,14 @@ header nav ul li a{
     border: 1px solid #111B47;
     transition: .75s;
 }
+/* End header */
+
+
+
+
+
+
+/* Start Fast  content*/
 .hero{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -102,3 +120,181 @@ padding-top: 30px;
     border-radius: 2px;
     color: #111B47;
 }
+/* End Fast  content*/
+
+
+/* End fast Section */
+
+
+
+/* Start second section */
+.second-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 200px;
+}
+.second-content-article h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #091133;
+}
+.second-content-article p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F7CB2;
+}
+.second-content-icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 80px;
+}
+.fast-icon h3{
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.fast-icon p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #5D6970;
+
+}
+/* End second section */
+
+
+
+/* Start third sextion */
+.third-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 150px;
+    grid-gap: 170px;
+    align-items: center;
+}
+.third-content-article h2{
+    font-weight: 500;
+    font-size: 36px;
+    color: #091133;
+    
+}
+.third-content-article p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6F7CB2;
+   
+    
+}
+/* End third section */
+
+
+
+
+/* Start Five section bnt */
+.five-btn{
+    text-align: left;
+    padding-top: 50px;
+}
+
+/* End Five section bnt */
+/* Start six content */
+.six-section{
+    background-image: url(./img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 300px;
+}
+/* End six content */
+
+
+
+/* Start six-content */
+.six-section{
+    overflow: hidden;
+}
+.six-content h1{
+font-size: 36px;
+font-weight: 500;
+}
+.six-content p{
+font-size: 16px;
+font-weight: 500;
+color: #6F7CB2;
+line-height: 26px;
+
+}
+
+.six-content span{
+    font-size: 50px;
+    font-weight: 500;
+    color: #222F65;
+}
+.six-content samp{
+    font-size: 16px;
+    font-weight: 400;
+    color: #37447E;
+
+}
+.six-content .p1{
+    color: #5D6970;
+    padding-top: 50px;
+}
+.six-content-btn{
+    text-align: center;
+}
+/* End six-content */
+footer{
+    background-image: url(./img/Rectangle\ \(2\).png);
+    
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+.footer-content-2023{
+    font-weight: 500;
+    font-size: 14px;
+    color: #939EA4;
+}
+
+.footer-content-btn{
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+.footer-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer-manu nav ul{
+    display: flex;
+}
+.footer-manu nav ul li{
+    list-style: none  ;
+}
+.footer-manu nav ul li a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: #505F98;
+}
+.hr{
+    opacity: .3;
+}
+
+.footer-socile-icon{
+   justify-self: right;
+}
+.footer-socile-icon ul{
+    display: flex;
+}
+.footer-socile-icon ul li{
+    list-style: none;
+}
+.footer-socile-icon ul li a{
+    color: #B0B8BC;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
